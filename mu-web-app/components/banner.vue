@@ -8,7 +8,7 @@
         <div class="logo">
           <img src="/images/logo.png" alt="Banner Image" />
           <div class="banner-content pt-2">
-            <div class="btn-download">
+            <div @click="handleDownGame()" class="btn-download">
               <img src="images/download.png" alt="Download Image"/>
             </div>
           </div>
@@ -47,6 +47,10 @@ export default class BannerComponent extends Vue {
     //   link: "#",
     // },
   ];
+
+  handleDownGame() {
+    window.open('https://drive.google.com/file/d/184jRlMcjchw_aT-3zndW4DOQsLosKbXp/view', '_blank');
+  }
 }
 </script>
 

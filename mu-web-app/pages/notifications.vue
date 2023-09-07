@@ -5,7 +5,7 @@
         <div class="banner-v2-content">
           <div class="d-flex">
             <div class="down-game">
-              <div class="btn-download">
+              <div @click="handleDownGame()" class="btn-download">
                 <img src="images/game-info__download.gif" alt="Game info" />
               </div>
             </div>
@@ -117,6 +117,10 @@ export default class BannerComponent extends Vue {
       image: "/images/gift05c4ca4.png",
     },
   ];
+
+  handleDownGame() {
+    window.open('https://drive.google.com/file/d/184jRlMcjchw_aT-3zndW4DOQsLosKbXp/view', '_blank');
+  }
 
   changeSlide(direction) {
     const scrollContainer = document.querySelector(
