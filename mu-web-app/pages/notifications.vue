@@ -249,7 +249,7 @@ export default class BannerComponent extends Vue {
 
       @media (max-width: 600px) {
         transform: scale(0.3);
-        top: -400px;
+        top: -300px;
       }
 
       .banner-v2-content {
