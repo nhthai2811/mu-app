@@ -1,0 +1,11 @@
+const appConfig = {
+  serverPort: 3333,
+  databaseUrl: 'database-url',
+  pythonApi: {
+    host: 'https://ishaon-chat.premedi.co.jp',
+    port: 443
+  },
+  secretKey: 'xxxxxxxxxxx',
+}
+
+module.exports = appConfig

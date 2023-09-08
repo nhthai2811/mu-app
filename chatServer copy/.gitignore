@@ -1,0 +1,18 @@
+.envrc
+
+# compiled output
+/dist
+/appConfig.js
+
+# dependencies
+/node_modules
+
+# prisma
+/prisma/migrations
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
