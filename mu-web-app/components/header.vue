@@ -2,7 +2,6 @@
   <v-app-bar class="header-custom" app color="rgb(255 0 0 / 82%)">
     <v-spacer></v-spacer>
     <v-btn @click="move('home')" text>Trang chủ</v-btn>
-    <v-btn @click="move('tintuc')" text>Tin tức</v-btn>
     <v-btn @click="move('discord')" text>Discord</v-btn>
     <v-btn @click="move('fanpage')" text>Fan page</v-btn>
   </v-app-bar>
