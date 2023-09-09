@@ -49,7 +49,7 @@ export default class BannerComponent extends Vue {
   ];
 
   handleDownGame() {
-    window.open('https://google.com', '_blank');
+    window.open('https://facebook.com', '_blank');
   }
 }
 </script>
